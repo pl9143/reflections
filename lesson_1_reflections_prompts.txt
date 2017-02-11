@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	BY DISPLAYING THE 'DIFF' LINES OF EACH FILE. OLDFILE WORKS NEW NOT...
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    TAKES LESS TIME IF YOU HAVE THE CHANGE HISTORY ORGANIZED AAND AT YOUR FINGERTIPS.
+	YOU SAVE THE SAME FILE JUST ANOTHER VERSION REATHER THAN RENAMING FILES
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    MANUAL COMMIT IS GOOD BECAUSE IT ALLOWS YOU TO TEST THE RESULTS AS MUCH AS YOU WANT/NEED TO.
+	MANUAL COMMIT IS BAD BECAUSE THOUGH TESTING IS NOT ALWAAYS PRACTICAL 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    DIFFERENT TYPES OF DOCUMENTS E.G. ARTICLE VERSE CODE... DIFFERENT USAGE REQUIREMENTS 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    IDENTIFY ALL COMMITS "GIT LOG" AND CHECK DIFF OF COMMITS WITH GIT DIFF
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    BY GOING BACK TO THE PREVIOUS WORKING VERSION "EACH COMMIT IS A WORKING VERSION"
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+	RELATIONS BETWEEN FILE MAKES IT NECESSARY WORK ON ONE FEATURE/PROBLEM USING MULTIPLE FILES
+	
+How can you use the commands git log and git diff to view the history of files?
+
+	GIT LOG WILL TELL ME THE HISTORY AND COMMENTS OF CHANGES 
+	GIT CLONE WILL SHOW ME THE CHANGES BETWEEN EACH COMMIT: LINE ANDDED AND DELETED
+	
+How might using version control make you more confident to make changes that could break something?
+
+	 THE GOAL IS NOT TO BREAK SOMETHING BUT IF I DID VERSION CONTROL MAKE IT EASIER TO TROUBLESHHOT AND TRACK WHERE THE PROBLEM IS
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	TOOL PROGRAMMING PROJECTS FOR WORK TO BUILD MY SKILLS
