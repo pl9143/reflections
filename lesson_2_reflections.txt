@@ -1,23 +1,36 @@
-What happens when you initialize a repository? Why do you need to do it?
-
-	git created a new directory to store the git project and all the files in the directory. At this point there are no commits.
+﻿What happens when you initialize a repository? Why do you need to do it?
+	Git created a new directory to store the git project files and all the source files. This is thstarting point for each .
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The staging area is a place where add and status operate on files in the directory 
-	The working directory is where initial files and committed files are stored
+	The staging area is a place where add and status operate on files in the directory before a commit
+	The working directory is where the active version is stored
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+        Once you make your change you add it to the staging area and use git --staged to confirm you changes then commit
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	When major changes are made branching allows a more organized way to test and create new code while keeping the              original working code. Branching helps organize major code changes while keeping the base code.
+
+
 How do the diagrams help you visualize the branch structure?
+
+	By showng the logical relation of branches to a commit timeline, 
+	master updates are not seen beyond initial branch creation at branch checkout.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	One branch that has all the features of both branches.
+	To show two separate code branches joining with into one as a merge
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+     Git checks for conflicts then merges, making auto commit a time saver. If there are conflicts during a commit git         will show where the conflicts are so they can be corrected manually. Git simplifies the process but requires manual          commiting when it is not practical to resolve the problem automatically. 
