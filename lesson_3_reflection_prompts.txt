@@ -28,4 +28,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    A branch is preferable when changing or adding a feature. Keeping it separate from the master makes it easier and prevents messing up the master.
+	Both ways are benefitial because branches will eventually merge into the master. 
